@@ -1,0 +1,45 @@
+/* src/styles/Navbar.module.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff; /* Adjust the color to match your design */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .name {
+    text-align: left;
+  }
+  
+  .name h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #333;
+  }
+  
+  .name p {
+    margin: 0;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .links a {
+    text-decoration: none;
+    margin: 0 1rem; /* Increase the space between links */
+    color: #333;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .links a:hover {
+    color: #007bff;
+  }
+  

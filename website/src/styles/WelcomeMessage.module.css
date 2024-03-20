@@ -1,0 +1,13 @@
+/* src/styles/WelcomeMessage.module.css */
+.welcomeMessage {
+    text-align: center;
+  }
+  
+  .welcomeMessage h1 {
+    margin-bottom: 0;
+  }
+  
+  .welcomeMessage h2 {
+    margin-top: 0;
+  }
+  

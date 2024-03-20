@@ -1,0 +1,15 @@
+/* src/styles/Profile.module.css */
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profilePic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    filter: grayscale(100%);
+  }
+  
