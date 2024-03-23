@@ -15,16 +15,15 @@
     cursor: pointer;
   }
   
-  .resume {
-    background-color: #FFD700; /* Resume button color */
+  .github {
+    background-color: #586069; /* Dark gray color closer to GitHub's color */
   }
   
-  .projects {
-    background-color: #FF4500; /* Projects button color */
-    
+  .resume {
+    background-color: #316b8a; /* Grayish color similar to GitHub */
   }
+  
   
   .contact {
-    background-color: #00CED1; /* Contact button color */
+    background-color: #0077b5 ; /* LinkedIn's blue color */
   }
-  
