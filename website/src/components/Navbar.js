@@ -11,7 +11,7 @@ function Navbar() {
         </div>  
         <div className={styles.links}>  
             <a href="#resume">Resume</a>
-            <a href="#projects">Projects</a>
+            <a href="https://github.com/adnansiddavatam" target="_blank" rel="noopener noreferrer">Projects</a>
             <a href="#contact">Contact</a>
         </div>
     </nav>

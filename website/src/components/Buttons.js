@@ -7,7 +7,7 @@ function Buttons() {
     <div className={styles.buttons}>
       <button className={`${styles.button} ${styles.resume}`}>Resume</button>
       <button className={`${styles.button} ${styles.projects}`}>Projects</button>
-      <button className={`${styles.button} ${styles.contact}`}>Contact</button>
+      <button className={`${styles.button} ${styles.contact}` }>Contact</button>
     </div>
   );
 }
