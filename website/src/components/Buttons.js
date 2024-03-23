@@ -4,10 +4,13 @@ import styles from '../styles/Buttons.module.css';
 import githubLogo from '../components/Pictures/github.png';
 import resumeLogo from '../components/Pictures/resume.png';
 import contactLogo from '../components/Pictures/linkedin.png';
+import resumePDF from '../components/Adnan Siddavatam Resume.pdf';
 
 function Buttons() {
+  const handleResumeClick = () => {
+    window.open(resumePDF, '_blank');
+  };
   return (
-    
     <div className={styles.buttons}>
       <button className={`${styles.button} ${styles.github}`}>
         <a href="https://github.com/adnansiddavatam" target="_blank" rel="noopener noreferrer" title="GitHub">
@@ -17,7 +20,7 @@ function Buttons() {
         </a>
       </button>
 
-      <button className={`${styles.button} ${styles.resume}`}>
+      <button className={`${styles.button} ${styles.resume}`} onClick={handleResumeClick}>
         <img src={resumeLogo} alt="Resume" style={{ height: '40px', width: '40px' }} />
       </button>
     
