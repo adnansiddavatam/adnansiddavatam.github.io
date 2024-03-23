@@ -27,3 +27,7 @@
   .contact {
     background-color: #0077b5 ; /* LinkedIn's blue color */
   }
+
+  .button:hover {
+    transform: scale(1.1);
+  }

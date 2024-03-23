@@ -22,7 +22,7 @@
 }
 
 .welcomeMessage p {
-  font-size: 1rem; /* Maintains readability */
+  font-size: 1.2rem; /* Maintains readability */
   line-height: 1.7; /* Enhances readability */
   color: #606060; /* Slightly darker for contrast */
   margin: 0 auto 1.5rem; /* Centers the text and adds spacing at the bottom */
