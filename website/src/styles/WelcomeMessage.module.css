@@ -1,13 +1,30 @@
 /* src/styles/WelcomeMessage.module.css */
 .welcomeMessage {
-    text-align: center;
-  }
-  
-  .welcomeMessage h1 {
-    margin-bottom: 0;
-  }
-  
-  .welcomeMessage h2 {
-    margin-top: 0;
-  }
-  
+  text-align: center;
+  margin: 40px auto; /* Adjusts the position and adds spacing around the message */
+  padding: 20px; /* Adds internal spacing */
+  max-width: 600px; /* Optimizes reading line length */
+}
+
+.welcomeMessage h1, .welcomeMessage h2 {
+  color: #4a4a4a; /* A neutral, soft color for text */
+  font-weight: 300; /* Lighter font weights for a modern, airy feel */
+}
+
+.welcomeMessage h1 {
+  margin: 0.5rem 0; /* Provides spacing around the header */
+  font-size: 2.2rem; /* Adjust the font size as needed */
+}
+
+.welcomeMessage h2 {
+  margin: 0.25rem 0 1.5rem; /* Adjusts spacing around the subheading */
+  font-size: 1.8rem; /* Smaller than h1 for hierarchy */
+}
+
+.welcomeMessage p {
+  font-size: 1rem; /* Maintains readability */
+  line-height: 1.7; /* Enhances readability */
+  color: #606060; /* Slightly darker for contrast */
+  margin: 0 auto 1.5rem; /* Centers the text and adds spacing at the bottom */
+  max-width: 540px; /* Ensures the paragraph is not too wide */
+}

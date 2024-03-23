@@ -15,4 +15,15 @@
   }
   
 
-  
+  /* src/index.css or src/App.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(135deg, #6E8EFB, #A777E3);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white; /* Ensures text color is readable on the gradient background */
+}
