@@ -1,12 +1,23 @@
-/* src/App.css */
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 .App {
   text-align: center;
-  /* Other styles... */
+  animation: slideInFromTop 1s ease-out forwards;
+  /* Your existing styles... */
 }
 
 .App-header {
-  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white for a frosted glass effect */
-  backdrop-filter: blur(10px); /* This will give a blur effect to the background, enhancing the focus on your content */
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,7 +27,6 @@
   color: black;
   /* Additional styling... */
 }
-
 /* src/index.css */
 body {
   margin: 0;
@@ -44,4 +54,5 @@ body {
   50% {background-position: 100% 50%}
   100% {background-position: 0% 50%}
 }
+
 
